@@ -1,0 +1,29 @@
+{
+  "name": "react-custom-hooks",
+  "version": "1.0.0",
+  "description": "A collection of React Custom Hooks for faster development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAMBIT20/reactCustomHooks.git"
+  },
+  "keywords": [
+    "custom-hooks",
+    "react",
+    "react-hooks",
+    "react-hook",
+    "custom-hook"
+  ],
+  "author": "Sambit Kumar Nanda <samnanda.dev@gmail.com> (https://samnanda.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAMBIT20/reactCustomHooks/issues"
+  },
+  "homepage": "https://github.com/SAMBIT20/reactCustomHooks#readme",
+  "peerDependencies": {
+    "react": "^16.x"
+  }
+}
