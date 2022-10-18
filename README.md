@@ -5,6 +5,17 @@
 
 # 📗 Documentation
 
+## Installing 🛠
+
+```bash
+# With npm
+$ npm i use-react-custom-hooks
+
+# With Yarn
+$ yarn add use-react-custom-hooks
+```
+
+# Examples
 
 ## 🪟 useWindowResize
 A really common need is to get the current size of the browser window. This hook returns an object containing the window's width and height.
