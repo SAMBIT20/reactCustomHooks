@@ -71,3 +71,25 @@ const LocalValue = () => {
   return <div>Lorem Ipsum</div>;
 };
 ```
+## 🔘 useToggle
+ Using the useToggle hook to create a toggle state with the initial value as `false`.
+ const [isToggled, toggleValue] = useToggle(false);
+
+### Usage
+
+```jsx
+import React from "react";
+import { useToggle } from "use-custom-hooks";
+
+function MyComponent() {
+  // Using the useToggle hook to create a toggle state with the initial value as `false`.
+  const [isToggled, toggleValue] = useToggle(false);
+
+  return (
+    <div>
+      <p>Toggle State: {isToggled ? "ON" : "OFF"}</p>
+      <button onClick={() => toggleValue()}>Toggle</button>
+    </div>
+  );
+}
+```
